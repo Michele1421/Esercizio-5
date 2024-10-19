@@ -1,0 +1,122 @@
+ *{ font-family: "Roboto", serif;
+    
+    
+}
+
+body{ padding: 0px;
+      margin: 0px;
+    
+    
+}
+    
+h1,h2,h3{ 
+    font-family: "Electrolize", serif;
+    
+}
+
+
+
+nav{
+    background-color: rgb(243, 242, 242);
+    color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    height: 10%;
+    top: 0px;
+    text-align: left;
+}
+
+
+
+
+.intestazione{
+    min-height: 100vh;
+    
+    background-repeat: no repeat;
+    background-position: center;
+    background-size:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{ 
+    text-align: center;
+    font-size: 50px;    
+    letter-spacing: 5px;
+    color: rgb(235, 230, 230);
+}
+
+
+.products{ display: flex;
+    color: rgb(252, 252, 125);
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;   
+    
+}
+
+footer{ 
+    height: 15vh;
+    background-color: rgb(243, 242, 242);
+    color: rgb(3, 3, 3);
+}
+
+.btn{ 
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    /*BOX MODEL appartiene a tutti i tag il primo valore è sopra il secondo è destra il terzo è sotto il quarto è sinistra
+    padding left
+    padding top
+    padding right
+    padding under*/
+padding: 20px 60px;
+/*solid dashed dotter*/
+border: 0px black ;
+/*  uguale al padding*/
+margin-left:auto;
+margin-right: auto;
+display: block;
+
+
+}
+
+
+        
+        
+/* Flexbox ci permette che un elemento htm possa muovere i figli diretti attraverdo la proprietà */
+.flex{ display: flex;
+    
+       /* mi permette di muovere orizzontalmente i figli diretti space*/
+       justify-content:center ;
+       height: 50%;
+       /* mi permette di muovere verticalmente i figli diretti di un flexbox start end center */
+       align-items: center ;
+    
+    
+} 
+.article-flex{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 65%;
+    
+ 
+} 
+
+
+
+
+
+     
+
+
+
+
+
+
+
